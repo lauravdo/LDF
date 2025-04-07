@@ -12,6 +12,7 @@ import win32con
 import win32security
 import pywintypes
 import wmi
+import sqlite3
 
 
 def verzamel_systeeminfo():
@@ -98,9 +99,11 @@ def netwerk_config():
 def usb_info():
     c = wmi.WMI()
     apparaten = []
-    
+
+    # We zoeken naar alle schijven die een verwisselbaar opslagapparaat zijn
     for disk in c.Win32_DiskDrive():
-        if "USB" in disk.InterfaceType:
+        # Controleer of het een verwisselbare schijf is, zoals een USB-stick
+        if "USB" in disk.InterfaceType or "Removable" in disk.MediaType:
             model = disk.Model
             device_id = disk.DeviceID
             size_gb = round(int(disk.Size) / (1024 ** 3), 2) if disk.Size else "Onbekend"
@@ -118,9 +121,11 @@ def usb_info():
                 "Schijfletter": schijfletter
             })
 
+    # Als er geen apparaten zijn, geef dan een bericht terug
     if not apparaten:
-        return "Geen USB-opslagapparaten gevonden"
+        return ["Geen USB-opslagapparaten gevonden"]
 
+    # Verzamel de uitvoer
     uitvoer = []
     for apparaat in apparaten:
         uitvoer.append(
@@ -130,6 +135,44 @@ def usb_info():
             f"Drive letter: {apparaat['Schijfletter']}\n"
             + "-" * 40
         )
-    
-    # Return de samengevoegde string
+
+    # Return de samengevoegde informatie als string
     return "\n".join(uitvoer)
+
+def recente_bestanden():
+    recent_map = os.path.expanduser(r"~\AppData\Roaming\Microsoft\Windows\Recent")
+    bestanden = []
+    for bestand in os.listdir(recent_map):
+        bestandspad = os.path.join(recent_map, bestand)
+        bestanden.append(bestandspad)
+    return "\n".join(bestanden)
+  
+def browsergeschiedenis():
+    browsers = {
+        "Chrome": os.path.expanduser(r"~\AppData\Local\Google\Chrome\User Data\Default\History"),
+        "Edge": os.path.expanduser(r"~\AppData\Local\Microsoft\Edge\User Data\Default\History"),
+        "Firefox": os.path.expanduser(r"~\AppData\Roaming\Mozilla\Firefox\Profiles\*.default-release\places.sqlite")
+    }
+    
+    geschiedenis = []
+    for browser, path in browsers.items():
+        if os.path.exists(path):
+            conn = sqlite3.connect(path)
+            cursor = conn.cursor()
+            cursor.execute("SELECT url, title, visit_count FROM urls ORDER BY last_visit_time DESC LIMIT 5")
+            for row in cursor.fetchall():
+                geschiedenis.append(f"Browser: {browser}, URL: {row[0]}, Titel: {row[1]}, Aantal bezoeken: {row[2]}")
+            conn.close()
+    
+    return "\n".join(geschiedenis)
+
+def geinstalleerde_remote_tools():
+    remote_tools = ["TeamViewer", "AnyDesk"]
+    geïnstalleerde_tools = []
+    for programma in geinstalleerde_software():  # hergebruik de functie geinstalleerde_software
+        for tool in remote_tools:
+            if tool in programma:
+                geïnstalleerde_tools.append(programma)
+    else:
+        geïnstalleerde_tools.append(f"{programma} Geen remote tooling software gevonden")
+    return "\n".join(geïnstalleerde_tools)

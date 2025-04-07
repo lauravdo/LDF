@@ -1,6 +1,6 @@
 import os
 import logging
-from collector import verzamel_systeeminfo, gebruikers_info, geinstalleerde_software, actieve_processen, netwerk_config, usb_info
+from collector import verzamel_systeeminfo, gebruikers_info, geinstalleerde_software, actieve_processen, netwerk_config, usb_info, recente_bestanden, browsergeschiedenis,geinstalleerde_remote_tools    
 
 # Log configuratie
 logging.basicConfig(level=logging.INFO)
@@ -12,11 +12,15 @@ def logbestand_legen(bestandsnaam):
         logging.info(f"Logbestand {bestandsnaam} is geleegd.")
 
 def schrijf_naar_log(bestandsnaam, titel, data):
-    """Schrijf data naar het logbestand."""
     with open(bestandsnaam, "a") as f:
         f.write(f"\n=== {titel} ===\n")
-        # Verander de data van een lijst naar een enkele string voordat we het naar het bestand schrijven
-        f.write(data + "\n")
+        
+        # Voeg de lijst als complete regels toe
+        if isinstance(data, list):
+            f.write("\n".join(data))  # Voeg de items in de lijst samen zonder extra nieuwe regels
+            f.write("\n")  # Voeg één extra nieuwe regel na de lijst toe
+        else:
+            f.write(f"{data}\n")
 
 def main():
     """Hoofd functie die systeeminformatie verzamelt en naar een logbestand schrijft."""
@@ -33,6 +37,9 @@ def main():
     actieve_processen_info = actieve_processen()
     netwerk_info = netwerk_config()
     usb_info_data = usb_info()
+    recente_bestanden_info = recente_bestanden()
+    browser_geschiedenis_info = browsergeschiedenis()
+    remote_tools_info = geinstalleerde_remote_tools()
 
     # Schrijf de verzamelde informatie naar het logbestand
     schrijf_naar_log(logbestand, "Systeeminformatie", systeeminfo)
@@ -41,6 +48,9 @@ def main():
     schrijf_naar_log(logbestand, "Actieve Processen", actieve_processen_info)
     schrijf_naar_log(logbestand, "Netwerkconfiguratie", netwerk_info)
     schrijf_naar_log(logbestand, "USB-informatie", usb_info_data)
+    schrijf_naar_log(logbestand, "Recente Bestanden", recente_bestanden_info)
+    schrijf_naar_log(logbestand, "Browsergeschiedenis", browser_geschiedenis_info)
+    schrijf_naar_log(logbestand, "Geïnstalleerde Remote Tools", remote_tools_info)
 
     logging.info("Alle informatie is verzameld en opgeslagen in output_log.txt")
 

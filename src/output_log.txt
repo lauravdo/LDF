@@ -1,6 +1,6 @@
 
 === Systeeminformatie ===
-Datum en tijd start script: 2025-04-07 21:06:03
+Datum en tijd start script: 2025-04-07 21:25:24
 Tijdzone: W. Europe Summer Time
 Gebruiker: Laura
 Hostnaam: DESKTOP-26R8BNI
@@ -455,7 +455,6 @@ PID: 2672, Naam: svchost.exe
 PID: 2680, Naam: svchost.exe
 PID: 2860, Naam: NVDisplay.Container.exe
 PID: 2972, Naam: svchost.exe
-PID: 2992, Naam: chrome.exe
 PID: 3068, Naam: svchost.exe
 PID: 3240, Naam: svchost.exe
 PID: 3304, Naam: svchost.exe
@@ -564,7 +563,6 @@ PID: 12708, Naam: conhost.exe
 PID: 13016, Naam: RuntimeBroker.exe
 PID: 13084, Naam: StartMenuExperienceHost.exe
 PID: 13424, Naam: svchost.exe
-PID: 13452, Naam: chrome.exe
 PID: 13576, Naam: iCUE.exe
 PID: 13664, Naam: SearchApp.exe
 PID: 13788, Naam: svchost.exe
@@ -572,8 +570,6 @@ PID: 13812, Naam: msedgewebview2.exe
 PID: 13924, Naam: RuntimeBroker.exe
 PID: 14348, Naam: audiodg.exe
 PID: 14580, Naam: Code.exe
-PID: 14700, Naam: chrome.exe
-PID: 14836, Naam: chrome.exe
 PID: 14860, Naam: svchost.exe
 PID: 14864, Naam: com.barraider.spotify.exe
 PID: 15272, Naam: svchost.exe
@@ -631,6 +627,7 @@ PID: 23220, Naam: iCloudServices.exe
 PID: 23808, Naam: dllhost.exe
 PID: 23836, Naam: SamsungMagician.exe
 PID: 24016, Naam: Spotify.exe
+PID: 24048, Naam: Video.UI.exe
 PID: 24468, Naam: SamsungMagician.exe
 PID: 24528, Naam: Spotify.exe
 PID: 24856, Naam: msedgewebview2.exe
@@ -644,81 +641,58 @@ PID: 26112, Naam: ShellExperienceHost.exe
 PID: 26432, Naam: Discord.exe
 PID: 26544, Naam: explorer.exe
 PID: 26560, Naam: svchost.exe
-PID: 26616, Naam: dynamiclinkmanager.exe
+PID: 27180, Naam: python3.10.exe
 PID: 27252, Naam: AdobeIPCBroker.exe
-PID: 27364, Naam: svchost.exe
 PID: 27460, Naam: CCLibrary.exe
+PID: 27996, Naam: svchost.exe
 PID: 28692, Naam: RuntimeBroker.exe
-PID: 29024, Naam: chrome.exe
-PID: 29048, Naam: chrome.exe
 PID: 29248, Naam: RuntimeBroker.exe
-PID: 29316, Naam: chrome.exe
 PID: 29336, Naam: Discord.exe
 PID: 29672, Naam: steamwebhelper.exe
 PID: 29836, Naam: Discord.exe
 PID: 30036, Naam: Discord.exe
-PID: 30100, Naam: chrome.exe
-PID: 30164, Naam: chrome.exe
 PID: 30528, Naam: conhost.exe
 PID: 31008, Naam: Discord.exe
 PID: 32000, Naam: LockApp.exe
-PID: 32056, Naam: SearchFilterHost.exe
-PID: 32456, Naam: TeamProjectsLocalHub.exe
 PID: 32560, Naam: Code.exe
+PID: 33036, Naam: svchost.exe
 PID: 33184, Naam: QtWebEngineProcess.exe
 PID: 34004, Naam: conhost.exe
 PID: 35348, Naam: conhost.exe
-PID: 35828, Naam: chrome.exe
-PID: 35872, Naam: chrome.exe
 PID: 36052, Naam: Calculator.exe
 PID: 36296, Naam: conhost.exe
-PID: 36372, Naam: Adobe Premiere Pro.exe
 PID: 36388, Naam: taskhostw.exe
-PID: 36928, Naam: chrome.exe
 PID: 36984, Naam: Code.exe
 PID: 37288, Naam: ApplicationFrameHost.exe
-PID: 37624, Naam: chrome.exe
 PID: 37828, Naam: svchost.exe
 PID: 37976, Naam: RuntimeBroker.exe
 PID: 38520, Naam: Code.exe
 PID: 38624, Naam: Code.exe
 PID: 39060, Naam: powershell.exe
 PID: 39264, Naam: unsecapp.exe
-PID: 39600, Naam: chrome.exe
 PID: 40528, Naam: Code.exe
 PID: 40932, Naam: conhost.exe
 PID: 41008, Naam: WINWORD.EXE
-PID: 41080, Naam: chrome.exe
 PID: 41340, Naam: Microsoft.SharePoint.exe
 PID: 41692, Naam: svchost.exe
-PID: 41764, Naam: chrome.exe
-PID: 41932, Naam: chrome.exe
 PID: 42336, Naam: Code.exe
 PID: 42356, Naam: steamwebhelper.exe
 PID: 42496, Naam: dllhost.exe
 PID: 42664, Naam: svchost.exe
 PID: 43060, Naam: pet.exe
-PID: 43192, Naam: CEPHtmlEngine.exe
 PID: 43328, Naam: conhost.exe
 PID: 43808, Naam: node.exe
 PID: 43976, Naam: powershell.exe
 PID: 43980, Naam: conhost.exe
 PID: 44192, Naam: Code.exe
-PID: 44224, Naam: CEPHtmlEngine.exe
-PID: 44552, Naam: CEPHtmlEngine.exe
-PID: 44672, Naam: chrome.exe
-PID: 45880, Naam: chrome.exe
 PID: 46544, Naam: MoUsoCoreWorker.exe
-PID: 47756, Naam: chrome.exe
+PID: 47668, Naam: SearchFilterHost.exe
 PID: 48156, Naam: Code.exe
+PID: 48208, Naam: RuntimeBroker.exe
 PID: 48324, Naam: Code.exe
-PID: 48468, Naam: SearchProtocolHost.exe
 PID: 48672, Naam: powershell.exe
-PID: 48740, Naam: svchost.exe
-PID: 48936, Naam: chrome.exe
-PID: 49104, Naam: python3.10.exe
+PID: 48720, Naam: SearchProtocolHost.exe
 PID: 49116, Naam: powershell.exe
-PID: 49896, Naam: chrome.exe
 
 === Netwerkconfiguratie ===
 Hostname: DESKTOP-26R8BNI
@@ -726,3 +700,390 @@ IP-adres: 192.168.56.1
 
 === USB-informatie ===
 Geen USB-opslagapparaten gevonden
+
+=== Recente Bestanden ===
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\!computername.txt.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\!Report.html.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\(2020 Spring semester) GKS Foreign Exchange Students Support Program.pdf.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\- (1).pdf.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\._Premiere Pro LUT Intructions.pdf.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\0aa084-OpenAllInteriors.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\1-1.png.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\1-2.gif.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\1.png.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\14.0.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\2-2.png.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\2022-10-14 00-40-50.mkv.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\2024-11-20 21-28-39.mkv.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\20240220_095937_2826812.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\2301899-547696535.jpg.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\2332395715-13-4667-9fd7-adf21b9e6ff4 - frame at 6m3s.jpg.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\2332395715-136589087-92248a33-f74-adf21b9e6ff4 - frame at 13m40s.jpg.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\2332395715-136589087-92248a33-f743-4667-9f7-adf21b9e6ff4 - frame at 13m25s.jpg.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\2332395715-136589087-92248a33-f743-4667-9fd7-adf21b9e6ff4 - frame at 0m0s.jpg.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\2332395715-136589087-92248a33-f7e at 3m45s.jpg.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\2333181980-136589087-ffcd3d2f823f2 - frame at 7m17s.jpg.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\2333181980-136589087-ffcd5b7b-e8ac-91d3d2f823f2 - frame at 0m18s.jpg.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\2333181980-1365890me at 27m22s.jpg.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\2333181980-13658ac-91d3d2f823f2 - frame at 57m30s.jpg.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\233318e at 37m43s.jpg.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\2338879385-136589087-822de783-7cc3-4f3e-af08-693edf999442.mp4.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\2340639126-136589087-47e43bee-90b9-43f7-ace5-72428f9aee2f.mp4.crdownload.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\2340639126-136589087-47e43bee-90b9-43f7-ace5-72428f9aee2f.mp4.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\2343117642-136589087-6c9a9f3b-b022-4343-ad89-cdf9542b6c37.mp4.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\2357649510-136589087-74ca138a-f08f-4e3a-b3e8-d43d4d2faaef.mp4.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\2357649510-136589087-df51e482-3abb-4308-9fc1-0e13258047e7.mp4.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\2368718628-136589087-a493dda1-70da-4d1f-8bcb-2c8ff65c0e0d.mp4.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\2368718628-136589087-f270b99b-3661-441e-ba13-66cfc3b85717.mp4.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\2369491457-136589087-0f4f75c8-3a8f-4992-9208-6ea1c7200700.mp4.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\2369491457-136589087-11a5ef0d-8bf1-4a37-a82e-6dd9d85b447b.mp4.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\2374802163-136589087-6e0a2c66-8b7b-4e11-a0b9-d6194fecf69d.mp4.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\2374802163-136589087-75110add-75a7-4373-b692-bc0250705e08.mp4.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\2381783838-136589087-a752e0d5-46d1-4498-b60f-aaeaac2d70e7.mp4.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\2382734066-136589087-6f696b55-571d-403b-bda2-7e40bba83f42.mp4.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\2407231102-136589087-a7331205-c31e-4d48-9cdf-2cecc14b40fa.mp4.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\2412376890-136589087-f4373870-db8d-4412-8ee9-62655b0af101.mp4.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\2413299621-136589087-3cd453e3-d9f2-4fac-a8db-ebf8a17d6cd7.mp4.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\2415964680-136589087-4edcaf00-16fd-4d6b-8d1f-39683f5a147c.mp4.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\2418543084-136589087-88b4a1b1-8b5a-4643-8af5-dfbc48d036cb.mp4.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\2424693785-136589087-6d81b478-b9f6-4a70-bda8-c38fd7c3763f.mp4.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\2425574007-136589087-309244b7-eb35-4c5a-a91c-fcd1dfc4ec9f.mp4.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\25-03-2022-laura-van-der-oord-kandidaat-rapport-werkgerelateerde-persoonlijkheid-vragenlijst-i-.pdf.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\4-1.png.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\5-1.png.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\5.png.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\6-1.png.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\7-1.png.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\7.png.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\7C02v1H6.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\7C02v1x.txt.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\8-1.png.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\8.3 First rapport analyseren.zip.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\8.png.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\9-1.png.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\aqp.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Assignment-4-ProjectPlanning-StartProject-v2 (2).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Assignment-4-ProjectPlanning-StartProject-v2.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\bafkreigf7shdpgqeh5liqxvms3dsyq7qbzqaau5bhd7qvhlkntytypkv2e.jpg.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\bafkreihcmncny2zdufyx5f44t6c5conqlqpzekbnwhvs5gl6i3vwyt3hce.jpg.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\batch.txt.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\be.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Bitlocker-Information.txt.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Brief.pdf.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Browser_History_Files.TXT.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Capture001.png.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Capture1.PNG.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\CiirellaEmotes.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\clues_1_clue_55.ogg.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\cv lauravanderoord.pdf.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\cv.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\db.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\db.png.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\desktop.ini
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Desktop.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Device Manager.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\dmde-4-2-0-814-win64-gui.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\dmde-4-2-0-814-win64-gui.zip.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Downloads (10).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Downloads (11).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Downloads (12).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Downloads (13).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Downloads (2).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Downloads (3).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Downloads (4).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Downloads (5).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Downloads (6).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Downloads (7).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Downloads (8).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Downloads (9).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Downloads.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Een titel toevoegen (15).png.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Een titel toevoegen (16).png.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Een titel toevoegen.png.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\emotes.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ending.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\FINAL FANTASY VII REBIRTH.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\first.log.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\first.zip.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\forensics_tool.py.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\fullscan.log.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\HDD (E).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\hmm.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\https--aka.ms-GameInstallHelpDocumentation.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\https--b94epgkt.r.us-east-1.awstrack.me-L0-https%2F%2Fdashboard.twitch.tv%2Fchannel-analytics%2Fpayouts-1-01000194ad6d30e3-c096d0c9-182a-428d-a307-03e48f4dac7f-000000-RhPvg_IIiy0CeKLMHh3UWlwY4r8=410.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\https--carriere.politie.nl-portaal- (2).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\https--carriere.politie.nl-portaal-.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\https--click.edm.postnl.nl-qs=5d2864464bf5a348b1ee90cdfe3757a380d54c990a7ca4d34df0439866bbbd079f97376c33f40433db1fafee6a6abd7a4bef7c1aa8f01a9297b959a2ae790043.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\https--click.edm.postnl.nl-qs=6b044f6a1ee97780e1002fb63086b101e6a6a82873b5454711b69cdc643a4cc26c07ba37ccaeaadd1a4ed1798391da3510e7a93d95aae5dccc8bad45ef895344.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\https--click.pstmrk.it-2sm-app.rentslam.com%2Flinktracker%2Ftrack%2F4d64d68a-bc28-4c44-b54d-31f7774ace36-J6nijzEN-nqxP-wSE5MkNjXj-cHJvcGVydHk.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\https--click.pstmrk.it-2sm-app.rentslam.com%2Flinktracker%2Ftrack%2F59857242-dcfd-412c-86ee-9ab446f5b8b6-YKtQETEN-nqxP-V8oS4LVYr4-cHJvcGVydHk.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\https--click.pstmrk.it-2sm-www.benopzoek.nl%2Fhuren%2FAmsterdam%2FElisabeth%2520Boddaertstraat-54-3%2F-Of641jAN-nqxP-rRmeQg4Pn0-cHJvcGVydHk.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\https--click.pstmrk.it-2sm-www.benopzoek.nl%2Fhuren%2FAmsterdam%2FGorontalostraat-25-B%2F-2R450zMN-nqxP-9XRCqo1kzi-cHJvcGVydHk.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\https--click.pstmrk.it-2sm-www.funda.nl%2Fhuur%2Famsterdam%2Fappartement-42984634-ingenhouszhof-54%2F-84FS3jIN-nqxP-PE8epEWlVP-cHJvcGVydHk.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\https--click.pstmrk.it-2sm-www.funda.nl%2Fhuur%2Futrecht%2Fappartement-42907815-lamerislaan-298%2F-ghvaQDMN-nqxP-rHyeMq-SZC-cHJvcGVydHk.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\https--click.pstmrk.it-2sm-www.funda.nl%2Fhuur%2Futrecht%2Fappartement-42957809-cab-rondom-9%2F-wh8t0jEN-nqxP-kjEEeKaKIV-cHJvcGVydHk.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\https--click.pstmrk.it-2sm-www.pararius.nl%2Fappartement-te-huur%2Famsterdam%2Fb31d31b6%2Fertskade-me8veDIN-nqxP-UCfO6Qwju_-cHJvcGVydHk.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\https--click.pstmrk.it-2sm-www.rebohuurwoning.nl%2Fnl%2Faanbod%2Famsterdam-kleine-pimpernelstraat-62--5330-k7NkmzMN-nqxP-M-7CaXq8IS-cHJvcGVydHk.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\https--click.pstmrk.it-2sm-www.rebohuurwoning.nl%2Fnl%2Faanbod%2Futrecht-melissekade-325-5204-Mo9nljIN-nqxP-Cv17WY8ueT-cHJvcGVydHk.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\https--drive.google.com-file-d-1SWOcKVojA5PranLnMhX5RyYvULBMiynN-viewusp=sharing.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\https--go.microsoft.com-fwlink-linkid=2103659 (2).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\https--go.microsoft.com-fwlink-linkid=2103659.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\https--int.bahn.de-en-help-contact-cancellation-form.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\https--jouw.postnl.nl-pst=k-em_f-f_p-pnl_u-pnl_r-nvt_v-pwb-verzendlabelorderbevestiging.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\https--status.greenchef.nl-nblwyy2vnvutm_source=transactional&utm_medium=email&utm_campaign=GQ-Active-BAU-DeliveryNotification&utm_term=590979&crmcid=404220.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\https--tweakers.net-gallery-pricealert-activeren-f0baa5d537d963fd51f75653e270e47b-1976518-.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\https--tweakers.net-gallery-pricealert-activeren-f0baa5d537d963fd51f75653e270e47b-1976544-.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\https--tweakers.net-gallery-pricealert-activeren-f0baa5d537d963fd51f75653e270e47b-2096454-.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\https--tweakers.net-gallery-pricealert-activeren-f0baa5d537d963fd51f75653e270e47b-2119306-.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\https--tweakers.net-gallery-pricealert-activeren-f0baa5d537d963fd51f75653e270e47b-2122848-.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\https--vacatures.yse.nl-jobs-1496721-junior-informatie-security-specialist-bij-a-s-rutm_source=magnetme&utm_medium=paid&utm_campaign=externalApply&utm_content=309885.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\https--www.bing.com-searchq=Re-pair%20Bluetooth%20earbuds%20for%20stereo%20sound%20windows&form=B00032&ocid=SettingsHAQ-BingIA&mkt=en-GB.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\https--www.breinstein.nl-vacatures-it-traineeship-cyber-security-omgeving-utrecht-utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\https--www.careervalue.nl-vacatures-overige-ict-functies-utrecht-gezocht-junior-security-consultants-utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\https--www.coolblue.nl-product-url-708429utm_source=vanessa&utm_medium=mail&utm_campaign=notspecified.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\https--www.gu.se-en-study-gothenburg-digital-leadership-masters-programme-n2dig.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\https--www.marktplaats.nl-link-mijnberichten-28sf357k7772hpg4sgbv.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\https--www.marktplaats.nl-link-mijnberichten-j35s7fz3b2j40m9clp.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\https--www.megekko.nl-product-4278-294823-Socket-AM4-Processoren-AMD-Ryzen-trade-7-5800X-processor.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\https--www.nexusmods.com-witcher3-mods-3953tab=posts&BH=0.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\https--www.ryanair.com-gb-en-trip-manage-BookingId771176089utm_source=crm&utm_medium=email&utm_campaign=U_MULTI_ITINERARY_gb_noseg_noab_nodiv_nop_nols&from=itinerary-email.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\https--www.tascnet.be-tlogintoken=482abeb9630ecb1037bb91860762adeb.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\https--www.werkenvoornederland.nl-vacatures-traineeship-security-engineer-RO-2022-0140.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\https--www.youtube.com-c-JazzyGuns-videosview=0&sort=p&flow=grid.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\https--www.youtube.com-c-juliatvgames-videos.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\https--www.youtube.com-c-reyskywlkr-videos.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\https--www.youtube.com-c-SuzyLuOfficial-videos (2).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\https--www.youtube.com-c-SuzyLuOfficial-videos.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\https--www.zorgdomein.nl-patient-3ef8d763-6ec6-46a2-a6ba-90c3a8f9fd21.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\images.jpg.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\jrojaure.PNG.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\KINGSTON (F).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Komp 1_1.avi.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\LauraWebsite (2).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\LDF.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\LDFscript.txt.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Local Disk (S).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\log_category_4.txt.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\MCM EDITED.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\message.txt.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\motivatiebrief.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\motivatiebriefkmar.pdf.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\mp4.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-gamingoverlay--kglcheck-.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-photosspareprocess-viewer (2).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-photosspareprocess-viewer (3).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-photosspareprocess-viewer (4).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-photosspareprocess-viewer (5).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-photosspareprocess-viewer (6).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-photosspareprocess-viewer.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-settingsnetwork-ethernet.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-settingssound (10).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-settingssound (11).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-settingssound (12).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-settingssound (13).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-settingssound (14).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-settingssound (15).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-settingssound (16).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-settingssound (17).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-settingssound (18).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-settingssound (19).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-settingssound (2).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-settingssound (20).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-settingssound (21).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-settingssound (22).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-settingssound (23).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-settingssound (24).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-settingssound (25).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-settingssound (26).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-settingssound (27).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-settingssound (28).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-settingssound (29).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-settingssound (3).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-settingssound (30).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-settingssound (31).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-settingssound (32).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-settingssound (33).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-settingssound (34).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-settingssound (35).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-settingssound (36).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-settingssound (37).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-settingssound (38).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-settingssound (39).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-settingssound (4).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-settingssound (40).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-settingssound (41).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-settingssound (42).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-settingssound (43).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-settingssound (44).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-settingssound (45).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-settingssound (5).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-settingssound (6).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-settingssound (7).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-settingssound (8).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-settingssound (9).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-settingssound.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\ms-settingswindowsupdate-restartoptions.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msteamscanary.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msteamssystem-initiated (2).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msteamssystem-initiated (3).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msteamssystem-initiated (4).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msteamssystem-initiated (5).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msteamssystem-initiated.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (10).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (11).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (12).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (13).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (14).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (15).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (16).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (17).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (18).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (19).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (2).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (20).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (21).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (22).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (23).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (24).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (25).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (26).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (27).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (28).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (29).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (3).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (30).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (31).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (32).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (33).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (34).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (35).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (36).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (37).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (38).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (39).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (4).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (40).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (41).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (42).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (43).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (44).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (45).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (46).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (47).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (48).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (49).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (5).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (50).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (51).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (52).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (53).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (54).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (55).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (56).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (57).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (58).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (59).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (6).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (60).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (61).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (62).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (63).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (64).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (65).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (66).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (67).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (68).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (69).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (7).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (70).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (71).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (72).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (73).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (74).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (75).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (76).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (77).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (78).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (79).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (8).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (80).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (81).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (82).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (83).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (84).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (85).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (86).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (87).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (88).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (89).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (9).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox--- (90).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox---.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\New folder.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\New Frontiers.docx.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Opdracht Toolkit and Incident response.docx.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Parallel Computing.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Pictures.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Programs and Features.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Programs.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\project_files.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\python.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Quick access.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\readme.txt.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\recordings.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Rotterdam Container Terminals B.V.pdf.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\route.txt.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\screens.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\secret.wmv.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\sekiro save.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\sekiro3 - frame at 0m12s.jpg.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\sekiro3 - frame at 0m22s.jpg.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\sekiro3 - frame at 0m38s.jpg.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\sekiro3 - frame at 0m48s.jpg.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\sekiro3 - frame at 7m38s.jpg.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\sekiro4 - frame at 0m1s.jpg.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Sound (2).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Sound (3).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Sound (4).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Sound.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\SSD_1TB (D) (2).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\SSD_1TB (D) (3).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\SSD_1TB (D).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\stream clips new.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\stream.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\System32.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\test (2).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\test.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\The Internet (2).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\The Internet (3).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\The Internet.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\This PC.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\thumbnail pc.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\thumbnails (2).lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\thumbnails.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\twitchclips.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\VanDerOordCV.pdf.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Volatility 2.6.zip.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\VOLUMEINFO_REPORT.TXT.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Windows 10 and later x64.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Windows 10 and later x64.vmx.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Windows10.iso.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\[PHYSICAL]_HARDDISK_REPORT.TXT.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\{73F798F8-4316-4766-9C24-E0CD8274B7DE}.lnk
+
+=== Browsergeschiedenis ===
+Browser: Chrome, URL: https://www.twitch.tv/jolly_hollyy, Titel: (18) jolly_hollyy - Twitch, Aantal bezoeken: 4
+Browser: Chrome, URL: https://tellonym.me/Ellenplux, Titel: Ellenplux, Aantal bezoeken: 1
+Browser: Chrome, URL: https://politieacademie.itslearning.com/ContentArea/ContentArea.aspx?LocationID=25305&LocationType=1&ElementID=7253531, Titel: 2511 Live Data Forensics APE - itslearning, Aantal bezoeken: 2
+Browser: Chrome, URL: https://politieacademie.itslearning.com/Course/course.aspx?CourseId=25305, Titel: , Aantal bezoeken: 4
+Browser: Chrome, URL: https://politieacademie.itslearning.com/main.aspx?CourseID=25305&ElementID=7253531&ElementType=131072, Titel: 2511 Live Data Forensics APE - itslearning, Aantal bezoeken: 1
+Browser: Edge, URL: https://www.bing.com/search?q=obsa&form=WNSGPH&qs=AS&cvid=1e79460414c6467497c7cc67ea7ee321&pq=obsa&cc=NL&setlang=en-150&DAF0=1&nclid=520D4A28AF46824482673E286813B0CF&ts=1741802093691&wsso=Moderate, Titel: obsa - Search, Aantal bezoeken: 1
+Browser: Edge, URL: https://www.bing.com/search?q=obsa&form=WNSGPH&qs=AS&cvid=1e79460414c6467497c7cc67ea7ee321&pq=obsa&cc=NL&setlang=en-150&DAF0=1&nclid=520D4A28AF46824482673E286813B0CF&ts=1741802093691&nclidts=1741802093&tsms=691&wsso=Moderate, Titel: obsa - Search, Aantal bezoeken: 1
+Browser: Edge, URL: file:///S:/Rotterdam%20Container%20Terminals%20B.V.pdf, Titel: Rotterdam Container Terminals B.V.pdf, Aantal bezoeken: 2
+Browser: Edge, URL: https://www.bing.com/search?q=veracrypt&filters=ufn%3a%22VeraCrypt%22+sid%3a%2255081eb7-6c13-1fd7-f719-c0b430cc82e6%22&asbe=AS&form=WNSGPH&qs=MB&cvid=23222f16546843d69a8a3cf0e425f8f3&pq=vera&cc=NL&setlang=en-150&DAF0=1&nclid=520D4A28AF46824482673E286813B0CF&ts=1740312857499&wsso=Moderate, Titel: veracrypt - Search, Aantal bezoeken: 1
+Browser: Edge, URL: https://www.bing.com/search?q=veracrypt&filters=ufn%3a%22VeraCrypt%22+sid%3a%2255081eb7-6c13-1fd7-f719-c0b430cc82e6%22&asbe=AS&form=WNSGPH&qs=MB&cvid=23222f16546843d69a8a3cf0e425f8f3&pq=vera&cc=NL&setlang=en-150&DAF0=1&nclid=520D4A28AF46824482673E286813B0CF&ts=1740312857499&nclidts=1740312857&tsms=499&wsso=Moderate, Titel: veracrypt - Search, Aantal bezoeken: 1
+
+=== Geïnstalleerde Remote Tools ===
+s Geen remote tooling software gevonden
