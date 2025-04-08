@@ -1,6 +1,9 @@
 
+=== Begintijd script ===
+2025-04-08 16:59:03
+
 === Systeeminformatie ===
-Datum en tijd start script: 2025-04-08 16:00:09
+Datum en tijd start script: 2025-04-08 16:59:03
 Tijdzone: W. Europe Summer Time
 Gebruiker: Laura
 Hostnaam: DESKTOP-26R8BNI
@@ -409,6 +412,7 @@ PID: 4, Naam: System
 PID: 172, Naam: Registry
 PID: 304, Naam: SamsungMagician.exe
 PID: 688, Naam: smss.exe
+PID: 700, Naam: mksSandbox.exe
 PID: 704, Naam: SystemSettings.exe
 PID: 728, Naam: svchost.exe
 PID: 732, Naam: svchost.exe
@@ -428,6 +432,7 @@ PID: 1548, Naam: svchost.exe
 PID: 1612, Naam: svchost.exe
 PID: 1664, Naam: svchost.exe
 PID: 1676, Naam: svchost.exe
+PID: 1780, Naam: vmplayer.exe
 PID: 1828, Naam: svchost.exe
 PID: 1976, Naam: svchost.exe
 PID: 2052, Naam: svchost.exe
@@ -456,7 +461,6 @@ PID: 3304, Naam: svchost.exe
 PID: 3792, Naam: svchost.exe
 PID: 3916, Naam: WmiPrvSE.exe
 PID: 3968, Naam: svchost.exe
-PID: 4012, Naam: python3.10.exe
 PID: 4100, Naam: svchost.exe
 PID: 4108, Naam: svchost.exe
 PID: 4124, Naam: conhost.exe
@@ -530,16 +534,16 @@ PID: 9164, Naam: ctfmon.exe
 PID: 9264, Naam: Razer Synapse Service.exe
 PID: 9796, Naam: AggregatorHost.exe
 PID: 10632, Naam: NisSrv.exe
-PID: 10732, Naam: setup.exe
 PID: 10760, Naam: svchost.exe
-PID: 10956, Naam: svchost.exe
 PID: 11016, Naam: dwm.exe
+PID: 11036, Naam: vmware-vmx.exe
 PID: 11120, Naam: svchost.exe
 PID: 11200, Naam: taskhostw.exe
 PID: 11240, Naam: WUDFHost.exe
 PID: 11416, Naam: svchost.exe
-PID: 11548, Naam: setup.exe
 PID: 11656, Naam: Code.exe
+PID: 11672, Naam: notepad.exe
+PID: 12292, Naam: svchost.exe
 PID: 12456, Naam: conhost.exe
 PID: 12644, Naam: nvcontainer.exe
 PID: 12792, Naam: Malwarebytes.exe
@@ -562,6 +566,7 @@ PID: 17304, Naam: Code.exe
 PID: 17500, Naam: Code.exe
 PID: 17668, Naam: Razer Synapse Service Process.exe
 PID: 17780, Naam: Code.exe
+PID: 18180, Naam: python3.10.exe
 PID: 18288, Naam: unsecapp.exe
 PID: 18960, Naam: RuntimeBroker.exe
 PID: 19092, Naam: iCloudServices.exe
@@ -573,9 +578,11 @@ PID: 20996, Naam: node20.exe
 PID: 21256, Naam: svchost.exe
 PID: 21480, Naam: SecurityHealthSystray.exe
 PID: 22612, Naam: msedgewebview2.exe
+PID: 22800, Naam: vmware-unity-helper.exe
 PID: 22876, Naam: SteamService.exe
 PID: 23028, Naam: NVIDIA Broadcast.exe
 PID: 23152, Naam: Discord.exe
+PID: 23248, Naam: conhost.exe
 PID: 23848, Naam: Discord.exe
 PID: 24556, Naam: sihost.exe
 PID: 24600, Naam: Rainmeter.exe
@@ -587,7 +594,6 @@ PID: 26056, Naam: steam.exe
 PID: 26148, Naam: Spotify.exe
 PID: 26540, Naam: OVRServer_x64.exe
 PID: 26560, Naam: svchost.exe
-PID: 27380, Naam: ms-teamsupdate.exe
 PID: 27676, Naam: Code.exe
 PID: 27756, Naam: conhost.exe
 PID: 27880, Naam: RuntimeBroker.exe
@@ -632,12 +638,14 @@ PID: 37200, Naam: QtWebEngineProcess.exe
 PID: 38116, Naam: steamwebhelper.exe
 PID: 38400, Naam: Code.exe
 PID: 38632, Naam: steamwebhelper.exe
+PID: 38852, Naam: WUDFHost.exe
 PID: 38988, Naam: powershell.exe
 PID: 39056, Naam: MusNotifyIcon.exe
 PID: 39168, Naam: SearchApp.exe
 PID: 39228, Naam: StartMenuExperienceHost.exe
 PID: 39236, Naam: OneDrive.exe
 PID: 39504, Naam: cmd.exe
+PID: 39876, Naam: svchost.exe
 PID: 40232, Naam: svchost.exe
 PID: 40516, Naam: conhost.exe
 PID: 40708, Naam: Code.exe
@@ -664,14 +672,13 @@ PID: 45332, Naam: steamwebhelper.exe
 PID: 45600, Naam: msedgewebview2.exe
 PID: 45772, Naam: iCUE.exe
 PID: 45984, Naam: Discord.exe
-PID: 46544, Naam: MoUsoCoreWorker.exe
+PID: 47172, Naam: python3.exe
 PID: 47428, Naam: Spotify.exe
 PID: 47640, Naam: SpeechRuntime.exe
 PID: 47972, Naam: CompPkgSrv.exe
 PID: 48284, Naam: NZXT CAM.exe
 PID: 48664, Naam: conhost.exe
 PID: 48904, Naam: lghub_system_tray.exe
-PID: 49284, Naam: SDXHelper.exe
 PID: 49376, Naam: NZXT CAM.exe
 PID: 49384, Naam: conhost.exe
 PID: 49908, Naam: conhost.exe
@@ -682,6 +689,12 @@ Hostname: DESKTOP-26R8BNI
 IP-adres: 192.168.56.1
 
 === USB-informatie ===
+Model: Kingston DataTraveler 3.0 USB Device
+DeviceID: \\.\PHYSICALDRIVE3
+Size: 115.5 GB
+Drive letter: F:
+Status: Currently Connected
+----------------------------------------
 Model: Ven Generic
 DeviceID: 7&11f9279a&0
 Size: Unknown GB
@@ -708,7 +721,6 @@ C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\1.png.lnk
 C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\14.0.lnk
 C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\2-2.png.lnk
 C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\2022-10-14 00-40-50.mkv.lnk
-C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\2024-11-20 21-28-39.mkv.lnk
 C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\20240220_095937_2826812.lnk
 C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\2301899-547696535.jpg.lnk
 C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\2332395715-13-4667-9fd7-adf21b9e6ff4 - frame at 6m3s.jpg.lnk
@@ -768,7 +780,6 @@ C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Brief.pdf.lnk
 C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Browser_History_Files.TXT.lnk
 C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Capture001.png.lnk
 C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Capture1.PNG.lnk
-C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\CiirellaEmotes.lnk
 C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\clues_1_clue_55.ogg.lnk
 C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\CustomDestinations
 C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\cv lauravanderoord.pdf.lnk
@@ -1018,15 +1029,18 @@ C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\msxbox---.lnk
 C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\New folder.lnk
 C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\New Frontiers.docx.lnk
 C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Opdracht Toolkit and Incident response.docx.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\output.txt.lnk
 C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Parallel Computing.lnk
 C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Pictures.lnk
 C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Programs and Features.lnk
 C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Programs.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\projects.lnk
 C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\project_files.lnk
 C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\python.lnk
 C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Quick access.lnk
 C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\readme.txt.lnk
 C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\recordings.lnk
+C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\requirements.txt.lnk
 C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\Rotterdam Container Terminals B.V.pdf.lnk
 C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\route.txt.lnk
 C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\screens.lnk
@@ -1068,11 +1082,11 @@ C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\[PHYSICAL]_HARDDISK_REPO
 C:\Users\Laura\AppData\Roaming\Microsoft\Windows\Recent\{73F798F8-4316-4766-9C24-E0CD8274B7DE}.lnk
 
 === Browsergeschiedenis ===
-Browser: Chrome, URL: https://www.icloud.com/applications/iclouddrive/current/nl-nl/index.html?rootDomain=www, Titel: iCloud Drive, Aantal bezoeken: 3
-Browser: Chrome, URL: https://www.icloud.com/iclouddrive/, Titel: iCloud Drive, Aantal bezoeken: 7
-Browser: Chrome, URL: https://www.icloud.com/, Titel: iCloud, Aantal bezoeken: 9
-Browser: Chrome, URL: https://imgur.com/a/75fUDws, Titel: Imgur: The magic of the Internet, Aantal bezoeken: 1
-Browser: Chrome, URL: https://claude.ai/chat/38bce52e-d223-45dc-8aab-f7df3575c098, Titel: Detecting Connected and Previously Connected USB Devices in Python - Claude, Aantal bezoeken: 1
+Browser: Chrome, URL: https://chatgpt.com/c/67eabd69-629c-8005-8699-cefa3f2bbdb4, Titel: Gaming SEO Strategy, Aantal bezoeken: 8
+Browser: Chrome, URL: https://chatgpt.com/c/67eabd69-629c-8005-8699-cefa3f2bbdb4#settings/Personalization, Titel: Gaming SEO Strategy, Aantal bezoeken: 1
+Browser: Chrome, URL: https://www.twitch.tv/itsjorja, Titel: itsjorja - Twitch, Aantal bezoeken: 48
+Browser: Chrome, URL: https://www.twitch.tv/ellenplux, Titel: (18) ellenplux - Twitch, Aantal bezoeken: 17
+Browser: Chrome, URL: https://github.com/astral-sh/python-build-standalone/releases, Titel: Releases · astral-sh/python-build-standalone, Aantal bezoeken: 1
 Browser: Edge, URL: https://www.bing.com/search?q=obsa&form=WNSGPH&qs=AS&cvid=1e79460414c6467497c7cc67ea7ee321&pq=obsa&cc=NL&setlang=en-150&DAF0=1&nclid=520D4A28AF46824482673E286813B0CF&ts=1741802093691&wsso=Moderate, Titel: obsa - Search, Aantal bezoeken: 1
 Browser: Edge, URL: https://www.bing.com/search?q=obsa&form=WNSGPH&qs=AS&cvid=1e79460414c6467497c7cc67ea7ee321&pq=obsa&cc=NL&setlang=en-150&DAF0=1&nclid=520D4A28AF46824482673E286813B0CF&ts=1741802093691&nclidts=1741802093&tsms=691&wsso=Moderate, Titel: obsa - Search, Aantal bezoeken: 1
 Browser: Edge, URL: file:///S:/Rotterdam%20Container%20Terminals%20B.V.pdf, Titel: Rotterdam Container Terminals B.V.pdf, Aantal bezoeken: 2
@@ -1081,3 +1095,6 @@ Browser: Edge, URL: https://www.bing.com/search?q=veracrypt&filters=ufn%3a%22Ver
 
 === Geïnstalleerde Remote Tools ===
 s Geen remote tooling software gevonden
+
+=== Eindtijd script ===
+2025-04-08 16:59:03

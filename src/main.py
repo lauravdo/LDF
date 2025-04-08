@@ -46,6 +46,7 @@ def main():
     remote_tools_info = geinstalleerde_remote_tools()
 
     # Schrijf de verzamelde informatie naar het logbestand
+    schrijf_naar_log(logbestand, "Begintijd script", datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
     schrijf_naar_log(logbestand, "Systeeminformatie", systeeminfo)
     schrijf_naar_log(logbestand, "Gebruikersinformatie", gebruikersinfo)
     schrijf_naar_log(logbestand, "Geïnstalleerde Software", software_info)
@@ -55,9 +56,9 @@ def main():
     schrijf_naar_log(logbestand, "Recente Bestanden", recente_bestanden_info)
     schrijf_naar_log(logbestand, "Browsergeschiedenis", browser_geschiedenis_info)
     schrijf_naar_log(logbestand, "Geïnstalleerde Remote Tools", remote_tools_info)
-
+    schrijf_naar_log(logbestand, "Eindtijd script", datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
     logging.info("Alle informatie is verzameld en opgeslagen in output_log.txt")
-    logging.info("Script is succesvol uitgevoerd, Eind tijd:" + datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+   
 
 if __name__ == "__main__":
     main()
