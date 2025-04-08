@@ -97,18 +97,18 @@ def netwerk_config():
 
 
 def usb_info():
+    # Get currently connected USB storage devices
     c = wmi.WMI()
     apparaten = []
-
-    # We zoeken naar alle schijven die een verwisselbaar opslagapparaat zijn
+    
+    # Check for currently connected USB drives
     for disk in c.Win32_DiskDrive():
-        # Controleer of het een verwisselbare schijf is, zoals een USB-stick
-        if "USB" in disk.InterfaceType or "Removable" in disk.MediaType:
+        if "USB" in disk.InterfaceType or (disk.MediaType and "Removable" in disk.MediaType):
             model = disk.Model
             device_id = disk.DeviceID
-            size_gb = round(int(disk.Size) / (1024 ** 3), 2) if disk.Size else "Onbekend"
+            size_gb = round(int(disk.Size) / (1024 ** 3), 2) if disk.Size else "Unknown"
 
-            # Koppel de disk aan een schijfletter
+            # Link the disk to a drive letter
             schijfletter = "N/A"
             for partition in disk.associators("Win32_DiskDriveToDiskPartition"):
                 for logical_disk in partition.associators("Win32_LogicalDiskToPartition"):
@@ -118,26 +118,81 @@ def usb_info():
                 "Model": model,
                 "DeviceID": device_id,
                 "Size": size_gb,
-                "Schijfletter": schijfletter
+                "Drive_Letter": schijfletter,
+                "Status": "Currently Connected"
             })
-
-    # Als er geen apparaten zijn, geef dan een bericht terug
+    
+    # Get previously connected USB devices from registry
+    try:
+        # Open registry key where USB device history is stored
+        reg_key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, 
+                                "SYSTEM\\CurrentControlSet\\Enum\\USBSTOR")
+        
+        
+        subkey_count = winreg.QueryInfoKey(reg_key)[0]
+        
+        
+        for i in range(subkey_count):
+            device_key_name = winreg.EnumKey(reg_key, i)
+            device_key = winreg.OpenKey(reg_key, device_key_name)
+            
+            # Try to get device info
+            try:
+                subkey_count_device = winreg.QueryInfoKey(device_key)[0]
+                
+                for j in range(subkey_count_device):
+                    try:
+                        instance_key_name = winreg.EnumKey(device_key, j)
+                        instance_key = winreg.OpenKey(device_key, instance_key_name)
+                        
+                        # Parse device information from key name
+                        parts = device_key_name.split('&')
+                        if len(parts) >= 2:
+                            model = parts[1].replace('_', ' ')
+                            
+                            # Check if this device is already in our list
+                            if not any(d['Model'] == model for d in apparaten):
+                                apparaten.append({
+                                    "Model": model,
+                                    "DeviceID": instance_key_name,
+                                    "Size": "Unknown",
+                                    "Drive_Letter": "N/A",
+                                    "Status": "Previously Connected"
+                                })
+                        
+                        winreg.CloseKey(instance_key)
+                    except WindowsError:
+                        continue
+                    
+            except WindowsError:
+                continue
+                
+            winreg.CloseKey(device_key)
+                
+        winreg.CloseKey(reg_key)
+    except WindowsError:
+        pass
+    
+    # If no devices found, return a message
     if not apparaten:
-        return ["Geen USB-opslagapparaten gevonden"]
+        return ["No USB storage devices found (current or previous)"]
 
-    # Verzamel de uitvoer
+    # Collect output
     uitvoer = []
     for apparaat in apparaten:
         uitvoer.append(
             f"Model: {apparaat['Model']}\n"
             f"DeviceID: {apparaat['DeviceID']}\n"
             f"Size: {apparaat['Size']} GB\n"
-            f"Drive letter: {apparaat['Schijfletter']}\n"
+            f"Drive letter: {apparaat['Drive_Letter']}\n"
+            f"Status: {apparaat['Status']}\n"
             + "-" * 40
         )
 
-    # Return de samengevoegde informatie als string
+    # Return the combined information as a string
     return "\n".join(uitvoer)
+
+
 
 def recente_bestanden():
     recent_map = os.path.expanduser(r"~\AppData\Roaming\Microsoft\Windows\Recent")
@@ -169,7 +224,7 @@ def browsergeschiedenis():
 def geinstalleerde_remote_tools():
     remote_tools = ["TeamViewer", "AnyDesk"]
     geïnstalleerde_tools = []
-    for programma in geinstalleerde_software():  # hergebruik de functie geinstalleerde_software
+    for programma in geinstalleerde_software():  
         for tool in remote_tools:
             if tool in programma:
                 geïnstalleerde_tools.append(programma)
